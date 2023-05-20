@@ -14,7 +14,7 @@ soupa = bs(site.content, 'html.parser')
 
 quotes_mother = soupa.find_all('div', class_='grid-item qb clearfix bqQt')
 
-quotes_sp = soupa.find('a', class_=re.compile('oncl_q'))
+quotes = soupa.find('a', class_=re.compile('oncl_q'))
 
 for q in quotes_mother:
     speaks = q.find('a', class_=re.compile('oncl_q')).get_text().strip()
