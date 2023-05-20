@@ -34,7 +34,7 @@ for next in range(13):
         product = p.find('h3', class_='product-name__Name-sc-1shovj0-0 gUjFDF').get_text().strip()
         tvs = p.find('span',
                      class_='src__Text-sc-154pg0p-0 price__PromotionalPrice-sc-h6xgft-1 ctBJlj price-info__ListPriceWithMargin-sc-1xm1xzb-2 liXDNM').get_text().strip()
-        sleep(0.2)
+        sleep(0.1)
 
         print(product, tvs)
 
