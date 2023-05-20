@@ -1,4 +1,4 @@
-# Data Science
+# Self Documentation 🥸
 
 ### It is a personal project for help me expand my knowledge about python, machine learning, deep learning and IA's. 🌏
 
