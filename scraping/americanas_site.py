@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup as bs
 from selenium import webdriver
 from time import sleep
-import pandas as pd
+# import pandas as pd
 
 url = "https://www.americanas.com.br/busca/tv-smart?rc=tv%20smart%20&=24&=20&=24&=&limit=24&offset=0"
 
@@ -43,5 +43,5 @@ for next in range(13):
 
 
 
-df = pd.DataFrame(dict_produtos)
-df.to_csv('C:/Users/Usuário/Downloads/Americanastv.csv', encoding='utf-8')
+# df = pd.DataFrame(dict_produtos)
+# df.to_csv('C:/Users/Usuário/Downloads/Americanastv.csv', encoding='utf-8')
